@@ -1,0 +1,241 @@
+
+/* override theme css*/
+.entry-title {
+    display: none;
+}
+@media screen and (min-width: 59.6875em) {
+    .site {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    body:before {
+        display: none !important;
+    }
+    .site-content {
+        margin-left: 0 !important;
+        width: 100% !important;
+    }
+    .entry-content {
+        padding: 0 2% 10% !important;
+    }
+} 
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+.main-content > div {
+    width: 50%;
+}
+.main-content > div:first-child {
+    border-right: 1px solid #C6C6C4;
+}
+.main-content > div:last-child {
+    background-color: #FCFBF6;
+}
+.main-content > div:last-child > div {
+    height: 43px;
+    background-color: white;
+    border-bottom: 1px solid #C6C6C4;
+}
+   
+.main-content > div:first-child > div {
+   border-bottom: 1px solid #C6C6C4;
+}
+.main-content > div:first-child > div.header {
+   font-size: 25px;
+    font-weight: 600;
+}
+.main-content > div:first-child > div.sub-header {
+       padding: 27px 40px;
+}
+new-request .requests-icon-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     margin-top: 17px;
+     border-bottom: none !important;
+     padding: 0px 25px;
+
+
+}
+new-request .requests-icon-buttons > div {
+    width: 18%;
+    margin: 2%;
+}
+new-request .requests-icon-buttons > div > div:first-child {
+   border: 1px solid #A6A6A5;
+   text-align: center;
+   padding: 1em;
+}
+new-request .requests-icon-buttons > div > div:first-child md-icon {
+    width: 75px;
+    height: 75px;
+}
+new-request .requests-icon-buttons > div > div:first-child.active {
+  background-color: #FFA000;
+}
+new-request .requests-icon-buttons > div > div:last-child {
+    font-size: 15px;
+    line-height: 16px;
+    margin-top: 5px;
+    text-align: center;
+}
+new-request > div > div:last-child .request-name {
+   font-size: 25px;
+    font-weight: 600;
+    border-bottom: 1px solid #C6C6C4;
+    margin: 0px 40px;
+    padding: 21px 0px;
+}
+new-request form {
+ padding: 28px 42px;
+}
+   
+new-request form > div {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+new-request form > div.document {
+    border-bottom: 1px solid #C6C6C4;
+    padding-bottom: 14px;
+}
+
+new-request form > div label {
+   width: 50%;
+   font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+new-request form > div label span {
+    margin-left: 5px;
+}
+    
+new-request form > div input.subject {
+    width: 50%;
+}
+new-request form > div input ,
+new-request form > div textarea {
+   background-color: white;
+   border: 1px solid #989898;
+   
+}
+new-request form > button {
+    background-color: #FFB435;
+    border-radius: 19px;
+    padding: 5px 21px;
+    font-size: 13px;
+    box-shadow: 0px 3px 0px #FF7F0B;
+    float: right;
+}
+new-request form > div > div {
+   width: 50% !important;
+}
+new-request form > div > div div{
+   font-size: 11px;
+    font-size: 11px;
+    line-height: 10px;
+    margin-top: 3px;
+}
+new-request form > div.document label input {
+  display: none;
+}
+
+
+new-request form > div.document label md-icon {
+    pointer-events: none;
+    border-radius: 16px;
+    border: 2px solid #FFB435;
+    width: 33px;
+    height: 35px;
+    padding-top: 4px;
+    padding-bottom: 7px;
+}
+/*----------------------------------------------------------------*/
+
+search-request .requests-table  {
+    font-size: 83%;
+    border-bottom: none !important;
+}
+search-request .requests-table > div {
+    display: flex;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 8px 0px 8px 10px;
+}
+search-request .requests-table > div > div:nth-of-type(1) {
+    width: 38%;
+    font-weight: bold;
+}
+search-request .requests-table > div > div:nth-of-type(2) {
+    width: 25%
+}
+
+search-request .requests-table > div > div:nth-of-type(3) {
+    width: 15%
+}
+search-request .requests-table > div > div:nth-of-type(4) {
+    width: 15%
+}
+search-request .requests-table > div.active {
+  background-color: black;
+  color: white;
+}
+search-request .request-header {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+search-request .request-header .request-title {
+    font-size: 25px;
+    font-weight: 800;
+}
+search-request .request-header .subtitle {
+    display: flex;
+    color: #787877;
+    font-size: 16px;
+}
+search-request .request-header .subtitle > div:first-child {
+    border-right: 1px solid #787877;;
+    padding-right: 14px;
+    margin-right: 14px;
+}
+search-request .request-header > .request-status {
+    font-size: 14px;
+    color: white;
+    padding: 1px 12px;
+    border-radius: 12px;
+
+}
+search-request request-detail > div > div {
+    border-bottom: 1px solid #C6C6C4;
+    margin: 0px 40px;
+}
+
+search-request .request-desc {
+    padding: 22px 0px;
+
+}
+search-request .request-desc > div {
+   color: #FFA000;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+search-request .request-desc textarea {
+    font-size: 13px;
+    background-color: transparent;
+    border: 1px solid #C8C8C5;
+
+}
+
+div.active svg .cls-1 {
+    fill: white;
+}
+
+    
